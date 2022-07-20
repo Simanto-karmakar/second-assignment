@@ -59,6 +59,7 @@ body {
     flex-grow: 1;
     margin-top: 40px;
     margin-left: 60px;
+    gap: 40px;
 }
 
 .select-option {
@@ -102,17 +103,25 @@ body {
 .match-shedule {
     display: flex;
 
-    text-align: center;
-    /* margin-left: 40px; */
 
 }
 
-.match-shedule ul li {
+.match-time {
+    box-sizing: border-box;
     margin-left: 40px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+
 }
 
-/*---------------------- main part end------------------- */
-/* ----------------------------footer start--------------------- */
+.fa-solid {
+    margin-top: 80px;
+
+
+}
+
+/* ----------------------footer start----------------------- */
 footer {
     background-color: black;
     color: white;
@@ -133,6 +142,18 @@ hr {
     color: white;
     margin-right: 15px;
     margin-top: 40%;
+}
+
+.icons {
+    text-decoration: none;
+    padding: 40px;
+
+}
+
+.fa-brands {
+    padding-right: 40px;
+    color: white;
+    font-weight: 1500;
 }
 
 /* -------------------footer end------------------- */
