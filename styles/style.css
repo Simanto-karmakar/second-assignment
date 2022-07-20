@@ -22,7 +22,7 @@ body {
     margin-left: 140px;
 }
 
-.container {
+.live-match {
     display: flex;
     align-items: center;
     padding: 20px 20px;
@@ -39,7 +39,7 @@ body {
 }
 
 .image {
-    padding-top: 50px;
+    padding-top: 109px;
     padding-left: 20px;
 
 }
@@ -54,3 +54,94 @@ body {
 
 /*------------------------------ header end---------------------------------- */
 /* -----------------------------main part start----------------------------- */
+.container {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.select-option {
+
+    background-color: #161616;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.upcoming-match {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.all-group {
+    text-decoration: none;
+    padding: 10px 45px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.blog {
+    text-decoration: none;
+    padding: 10px 65px;
+    color: white;
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+
+.blogs-list {
+    flex-grow: 1;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.blog-1 {
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    padding-top: 0px;
+
+}
+
+
+.transfer {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 3px 5px;
+    border-radius: 4px;
+}
+
+.blogs {
+    box-shadow: 0 10 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+/*---------------------- main part end------------------- */
+/* ----------------------------footer start--------------------- */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    width: 100%;
+}
+
+hr {
+    margin-right: 20%;
+    margin-left: 20%;
+    color: rgb(185, 184, 184);
+}
+
+.contract-manu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    margin-top: 40%;
+}
